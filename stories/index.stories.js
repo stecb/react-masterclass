@@ -26,6 +26,7 @@ No focus on css, JUST on React (apologies for the inline css :D)
 - Render props
 - Hooks intro (this is the game changer!!!!)
 - New Context API
+
 */
 
 storiesOf('Dynamic elements', module)
