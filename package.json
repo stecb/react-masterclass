@@ -4,7 +4,9 @@
   "description": "react exercises w/ storybook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,24 @@
   "bugs": {
     "url": "https://github.com/stecb/react-masterclass/issues"
   },
-  "homepage": "https://github.com/stecb/react-masterclass#readme"
+  "homepage": "https://github.com/stecb/react-masterclass#readme",
+  "dependencies": {
+    "css-loader": "^1.0.1",
+    "module-tsl-ui-components": "^32.0.2153",
+    "node-sass": "^4.10.0",
+    "react": "^16.7.0-alpha",
+    "react-dom": "^16.7.0-alpha",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "tes-sass": "^8.3.400"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@storybook/addon-actions": "^4.0.8",
+    "@storybook/addon-links": "^4.0.8",
+    "@storybook/addons": "^4.0.8",
+    "@storybook/react": "^4.0.8",
+    "babel-loader": "^8.0.4",
+    "react-hot-loader": "^4.3.12"
+  }
 }
